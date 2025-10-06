@@ -1,6 +1,10 @@
 name: Publish Ruby Gem
 
-on: workflow_dispatch
+
+on:
+  push:
+    branches: ["main"]
+
 
 jobs:
   build:
